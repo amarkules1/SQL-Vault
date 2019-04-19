@@ -1,4 +1,4 @@
-package main.java.sqlVault;
+package sqlVault;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -8,9 +8,11 @@
     <body>
         <h2>The Vault</h2>
         <p>It looks like we need a password to enter the vault and get the flag. The vault makers are notorious for their complex passwords, but maybe there's another way in...</p>
-        <img src="images/closed.jpeg"/>
-        <img src="images/open.jpeg" class="hidden"/>
+        <img src="images/closed.jpg"/>
+        <img src="images/open.jpg" class="hidden"/>
         <p>Password:</p>
         <input type="text" placeholder="Password" id="pw">
+        <button onClick="makeRequest()">Submit</button>
+        <div id="response"></div>
     </body>
 </html>
